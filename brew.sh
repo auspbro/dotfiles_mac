@@ -36,54 +36,45 @@ fi;
 brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
-brew install gnupg
+# brew install gnupg
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
-brew install screen
-brew install php
-brew install gmp
+brew install tmux
 
-# Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
-
-# Install other useful binaries.
-brew install ack
-#brew install exiv2
+# command-line utilities
 brew install git
 brew install git-lfs
 brew install gs
+brew install gh
+brew install ffmpeg
+brew install cask
+brew install zsh
+brew install zsh-autosuggestions
+brew install zsh-completions
+brew install zsh-syntax-highlighting
+
+# apps
+brew install --cask google-chrome
+brew install --cask cursor
+brew install --cask warp
+brew install --cask screen-studio
+brew install --cask obs
+brew install --cask vlc
+brew install --cask iina
+brew install --cask visual-studio-code
+brew install --cask zed
+
+# fonts
+brew install --cask font-hack-nerd-font
+brew install --cask font-menlo-for-powerline
+brew install --cask font-jetbrains-mono
+brew install --cask font-jetbrains-mono-nerd-font
+
+# Install other useful binaries.
+brew install ack
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
